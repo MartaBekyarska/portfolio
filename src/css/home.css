@@ -1,5 +1,8 @@
+
+
 body, html {
     /* height: 100%; */
+    background-color: white;
 }
 .message {
     position: relative;
@@ -31,10 +34,38 @@ img {
     justify-content: center;
     align-items: center;
     font-family: PT Sans;
-    margin-right: 30px;
+}
+.intro {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: PT Sans;
+
 }
 h1 {
     margin-left: 80px;
     margin-right: 80px;
     color: white;
+}
+.fabs  {
+    display: block;
+    width: 10%;
+    margin: auto;
+    display: flex; 
+    justify-content: space-around; 
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); 
+    color: white;
+    font-size: 30px;
 }
