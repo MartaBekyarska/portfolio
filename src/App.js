@@ -13,7 +13,6 @@ class App extends Component {
           <Route path="/" exact component={Home} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/about" exact component={About} />
-
         </div>
       </HashRouter>
     );
