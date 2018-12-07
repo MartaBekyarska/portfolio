@@ -27,9 +27,11 @@ const Home = () => {
             Always keeping it clean and simple with added functionality whether it be in HTML, CSS or JavaScript.</p>
         </div>
       </div>
-      {/* <i class="fab fa-github"></i>
-      <i class="fab fa-linkedin"></i> */}
       <div id="background"></div>
+      <footer>
+      <i class="fab fa-github" id="github"></i>
+      <i class="fab fa-linkedin" id="linkedin"></i>
+      </footer>
     </div>
 
   );
