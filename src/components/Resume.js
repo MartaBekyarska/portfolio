@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../css/about.css';
+import '../css/resume.css';
 
-const About = () => {
+const Resume = () => {
 
     return (
         <div className="cont">
@@ -12,4 +12,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Resume;

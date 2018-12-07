@@ -1,30 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import marta from '../images/marta.jpg';
 import '../css/home.css';
 
 const Home = () => {
   return (
-    <div className="main">
 
-      <div className="hero">
 
-        <div className="menu">
-          <Link to="/" className="home">Home</Link>
-          <Link to="/about" className="about">About me</Link>
+    <div className="head">
+      <nav>
+        <ul className="menu">
+          <li><Link to="/" className="logo">Marta Bekyarska</Link></li>
+          <li><Link to="/" className="home">Home</Link></li>
+          <li><Link to="/projects" className="projects">Projects</Link></li>
+          <li><Link to="/resume" className="home">Resume</Link></li>
+        </ul>
+      </nav>
+      <div className="row" id="content">
+        <div className="column1">
+          <img src={marta} alt="myself" />
         </div>
-        <div className="wrapText">
-          <h1>Welcome! My name is Marta. I'm a Front End developer working with JavaScript and React with experience in testing.</h1>
-        </div>
-        <div className="fabs">
-          <a href="https://www.linkedin.com/in/marta-bekyarska-4280b7137"><i className="fab fa-linkedin-in" /></a>
-          <i className="fab fa-twitter" />
+        <div className="column2">
+          <h2>Hello!</h2>
+          <p>I'm a JavaScript Developer.
+            My passion dominates in coding because I like to create beautiful and efficient websites.
+            Always keeping it clean and simple with added functionality whether it be in HTML, CSS or JavaScript.</p>
         </div>
       </div>
-      
-      <div className="intro">
-        <h2>My passion dominates in coding because I like to create beautiful and efficient websites. Always keeping it clean and simple with added functionality whether it be in HTML, CSS or Javascript.</h2>
-      </div>
-
+      {/* <i class="fab fa-github"></i>
+      <i class="fab fa-linkedin"></i> */}
+      <div id="background"></div>
     </div>
 
   );

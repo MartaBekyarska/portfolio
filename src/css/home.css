@@ -1,86 +1,94 @@
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-body, html {
+body {
     background-color: white;
-}
-.wrapImage {
-   display: block;
-   width: 806px;
-   height: 706px;
-}
-.hero {
-    /* background: url('https://c1.staticflickr.com/5/4844/31221628507_f9490d9c6a_k.jpg'); */
-    background: url('https://c2.staticflickr.com/4/3767/32759627173_80354c5871_k.jpg');
-    width: 100%; 
-    object-fit: cover;
-    position: relative;
-    height: 80vh;
 }
 .menu {
     display: flex;
-    justify-content: flex-end; 
-    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-a {
-    color: white;
-}
-.wrapText {
-    width: 70%;
+.menu li:first-child {
+    margin-right: auto;
     font-family: Noto Sans TC;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.intro {
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Noto Sans TC;
-
-}
-.fabs  {
+    z-index: 3;
+  }
+.menu .logo{
+      color: white;
+      font-size: 40px;
+      font-family: 'Satisfy', cursive;
+  }
+.menu a {
+    margin: 10px;
     display: block;
-    width: 10%;
-    margin: auto;
-    display: flex; 
-    justify-content: space-around; 
+    padding: 20px;
+    text-decoration: none;
+    font-family: Noto Sans TC;
+    font-size: 25px;
+    color: black;
+  }
+#background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+#content {
+    z-index: 2;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Noto Sans TC;
+    width: 800px;
+    height: 400px;
     position: absolute;
-    bottom: 10px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%); 
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.column1 {
+    width: 50%;
+   }
+#github {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    padding-left: 20px;
 }
-
-
-.home {
-    padding: 30px 50px 0 0;
+#linkedin {
+    color: white;
+    font-size: 20px;
 }
-.about {
-    padding: 30px 60px 0 0;
-    margin-right: 50px;
+img {
+    height: 100%;
+    width: 75%;
+    vertical-align: middle;
 }
-.btn-hover {
-    width: 200px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    height: 55px;
-    text-align:center;
-    border: none;
+h2 {
+    color: black;
+    font-family: Noto Sans TC;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-
+p {
+    color: black;
+    font-family: Noto Sans TC;
+    font-size: 15px;
+    padding: 15px;
+}
+.column2 {
+    width: 50%;
+}
 

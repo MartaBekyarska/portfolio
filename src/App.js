@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { HashRouter, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Contact from './components/Contact';
-import About from './components/About';
+import Resume from './components/Resume';
+import Projects from './components/Projects';
 import './App.css';
 
 class App extends Component {
@@ -11,8 +11,8 @@ class App extends Component {
       <HashRouter>
         <div className="App">
           <Route path="/" exact component={Home} />
-          <Route path="/contact" exact component={Contact} />
-          <Route path="/about" exact component={About} />
+          <Route path="/resume" exact component={Resume} />
+          <Route path="/projects" exact component={Projects} />
         </div>
       </HashRouter>
     );
