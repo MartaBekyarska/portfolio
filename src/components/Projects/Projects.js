@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../css/projects.css';
+import Menu from '../Menu/Menu';
+import './projects.css';
+import '../Menu/Menu.css';
 
 const Projects = () => {
 
     return (
         <div className="cont">
-            <h1>Oops this page seems not available yet!</h1>
+        <Menu />
+            <h1>Portfolio</h1>
             <Link to="/">Back to Home page</Link>
         </div>
     );

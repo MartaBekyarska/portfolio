@@ -2,31 +2,6 @@
 body {
     background-color: white;
 }
-.menu {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.menu li:first-child {
-    margin-right: auto;
-    font-family: Noto Sans TC;
-    z-index: 3;
-  }
-.menu .logo{
-      color: white;
-      font-size: 40px;
-      font-family: 'Satisfy', cursive;
-  }
-.menu a {
-    margin: 10px;
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-    font-family: Noto Sans TC;
-    font-size: 25px;
-    color: black;
-  }
 #background {
     position: fixed;
     top: 0px;
@@ -65,10 +40,9 @@ body {
     font-size: 40px;
     position: absolute;
     bottom: 0;
-    display: flex;
-    justify-content: space-around;
     z-index: 1;
     padding-bottom: 50px;
+    transform: translateX(-90%);
 }
 #linkedin {
     color: black;
@@ -76,6 +50,7 @@ body {
     position: absolute;
     bottom: 0;
     padding-bottom: 50px;
+
 }
 img {
     height: 100%;
@@ -98,5 +73,10 @@ p {
 }
 .column2 {
     width: 50%;
+}
+.icons a {
+   display: inline-block;
+   text-align: center;
+   margin: 40px;
 }
 

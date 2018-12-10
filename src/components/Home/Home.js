@@ -1,21 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import marta from '../images/marta.jpg';
-import '../css/home.css';
+import marta from '../../images/marta.jpg';
+import './home.css';
+import Menu from '../Menu/Menu';
 
 const Home = () => {
   return (
-
-
     <div className="head">
-      <nav>
-        <ul className="menu">
-          <li><Link to="/" className="logo">Marta Bekyarska</Link></li>
-          <li><Link to="/" className="home">Home</Link></li>
-          <li><Link to="/projects" className="projects">Projects</Link></li>
-          <li><Link to="/resume" className="home">Resume</Link></li>
-        </ul>
-      </nav>
+    <Menu />
       <div className="row" id="content">
         <div className="column1">
           <img src={marta} alt="myself" />
@@ -29,11 +20,12 @@ const Home = () => {
       </div>
       <div id="background"></div>
       <footer>
-      <i class="fab fa-github" id="github"></i>
-      <i class="fab fa-linkedin" id="linkedin"></i>
+        <div className="icons">
+          <a href="https://github.com/MartaBekyarska"><i className="fab fa-github" id="github" /></a>
+          <a href="https://www.linkedin.com/in/marta-bekyarska-4280b7137/"><i className="fab fa-linkedin" id="linkedin" /></a>
+        </div>
       </footer>
     </div>
-
   );
 };
 export default Home;

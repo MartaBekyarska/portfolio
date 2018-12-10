@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/resume.css';
 
-const Resume = () => {
+const Skills = () => {
 
     return (
         <div className="cont">
@@ -12,4 +12,4 @@ const Resume = () => {
     );
 };
 
-export default Resume;
+export default Skills;
