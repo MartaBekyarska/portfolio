@@ -1,21 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './contact.css';
+import Menu1 from '../Menu1/Menu1';
 
 const Contact = () => {
     return (
         <div class="container">
-                <Link to="/">
-                <p>Back to Home</p>
-                </Link>
-            </div>
-            
-
-
-                );
-            };
-            
-            
-            
-            
+            <Menu1 />
+        </div>
+    );
+};
 export default Contact;

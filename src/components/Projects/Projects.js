@@ -1,16 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Menu from '../Menu/Menu';
+import Menu1 from '../Menu1/Menu1';
 import './projects.css';
-import '../Menu/Menu.css';
+import '../Menu1/Menu1.css';
 
 const Projects = () => {
 
     return (
         <div className="cont">
-        <Menu />
+        <Menu1 />
             <h1>Portfolio</h1>
-            <Link to="/">Back to Home page</Link>
         </div>
     );
 };
