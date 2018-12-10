@@ -1,14 +1,14 @@
 {
-  "main.css": "/portfolio/static/css/main.1d65bafc.chunk.css",
-  "main.js": "/portfolio/static/js/main.d4bd0a5a.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.d4bd0a5a.chunk.js.map",
-  "static/js/1.26d580dd.chunk.js": "/portfolio/static/js/1.26d580dd.chunk.js",
-  "static/js/1.26d580dd.chunk.js.map": "/portfolio/static/js/1.26d580dd.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.4afdc4ee.chunk.css",
+  "main.js": "/portfolio/static/js/main.3cf98a5f.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.3cf98a5f.chunk.js.map",
+  "static/js/1.5ec3f1f3.chunk.js": "/portfolio/static/js/1.5ec3f1f3.chunk.js",
+  "static/js/1.5ec3f1f3.chunk.js.map": "/portfolio/static/js/1.5ec3f1f3.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/marta.jpg": "/portfolio/static/media/marta.95000012.jpg",
-  "static/css/main.1d65bafc.chunk.css.map": "/portfolio/static/css/main.1d65bafc.chunk.css.map",
+  "static/css/main.4afdc4ee.chunk.css.map": "/portfolio/static/css/main.4afdc4ee.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.fc053c07f947a8d5ba3f4b1a781f9ae9.js": "/portfolio/precache-manifest.fc053c07f947a8d5ba3f4b1a781f9ae9.js",
+  "precache-manifest.aaf3ff9ba649857ba0c3bc6505e993a9.js": "/portfolio/precache-manifest.aaf3ff9ba649857ba0c3bc6505e993a9.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
