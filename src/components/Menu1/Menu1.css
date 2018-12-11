@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     top: 0;
+    background-color: white;
 }
 .menu li:first-child {
     margin-right: auto;
@@ -27,3 +28,9 @@
     font-size: 25px;
     color: black;
   }
+.menu a:hover {
+    border-bottom: 1px solid black;
+}
+.menu a:active {
+    border-bottom: 1px solid black;
+}

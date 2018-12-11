@@ -12,7 +12,7 @@
     font-family: Noto Sans TC;
     z-index: 3;
   }
-  .menu li:last-child {
+.menu li:last-child {
       padding-right: 40px;
   }
 .menu .logo{
@@ -29,3 +29,9 @@
     font-size: 25px;
     color: black;
   }
+.menu a:hover {
+    border-bottom: 1px solid black;
+}
+.menu a:active {
+    border-bottom: 1px solid black;
+}
