@@ -6,6 +6,7 @@ import kodflix from '../../images/kodflix.PNG';
 import shop from '../../images/shop.PNG';
 import blog from '../../images/blog.PNG';
 import web from '../../images/web.PNG';
+import Footer from '../Footer/Footer';
 import './projects.css';
 import '../Menu1/Menu1.css';
 
@@ -41,6 +42,7 @@ const Projects = () => {
                     <a href="https://github.com/MartaBekyarska/GA-singleWeb" className="bottom-left">Code</a>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
