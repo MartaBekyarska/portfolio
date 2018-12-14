@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/SeasonalCuisine.ef855e9f.PNG"
   },
   {
-    "revision": "b97007fbfccd4a7505c9",
-    "url": "/portfolio/static/css/main.236ee758.chunk.css"
+    "revision": "572bd5686aad279c9243",
+    "url": "/portfolio/static/css/main.55a4bad0.chunk.css"
   },
   {
     "revision": "bd41ff36245e3156200b",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/memorygame.f56266e4.PNG"
   },
   {
-    "revision": "b97007fbfccd4a7505c9",
-    "url": "/portfolio/static/js/main.b97007fb.chunk.js"
+    "revision": "572bd5686aad279c9243",
+    "url": "/portfolio/static/js/main.572bd568.chunk.js"
   },
   {
     "revision": "3a8a88b395dccc967eb952f296e0c2e6",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/web.c8d6c18e.PNG"
   },
   {
-    "revision": "cec3bce1eb3ea7ebbbd6e479dd0d7e3b",
+    "revision": "7d77003782eb07b58e9aa1aec7d4532f",
     "url": "/portfolio/index.html"
   }
 ];
