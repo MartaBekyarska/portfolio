@@ -2,7 +2,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
     text-align: center;
     justify-content: flex-end;
     z-index: 3;
@@ -13,5 +12,5 @@
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
