@@ -9,7 +9,7 @@ const Home = () => {
     <Menu />
       <div className="row" id="content">
         <div className="column1">
-          <img src={marta} alt="myself" />
+          <img className="marta" src={marta} alt="myself" />
         </div>
         <div className="column2">
           <h2>Hello!</h2>
