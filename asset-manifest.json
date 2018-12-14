@@ -1,9 +1,9 @@
 {
-  "main.css": "/portfolio/static/css/main.44774d06.chunk.css",
-  "main.js": "/portfolio/static/js/main.ef7e1316.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.ef7e1316.chunk.js.map",
-  "static/js/1.e0411d51.chunk.js": "/portfolio/static/js/1.e0411d51.chunk.js",
-  "static/js/1.e0411d51.chunk.js.map": "/portfolio/static/js/1.e0411d51.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.236ee758.chunk.css",
+  "main.js": "/portfolio/static/js/main.7621cb54.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.7621cb54.chunk.js.map",
+  "static/js/1.bd41ff36.chunk.js": "/portfolio/static/js/1.bd41ff36.chunk.js",
+  "static/js/1.bd41ff36.chunk.js.map": "/portfolio/static/js/1.bd41ff36.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/marta.jpg": "/portfolio/static/media/marta.95000012.jpg",
@@ -13,8 +13,8 @@
   "static/media/blog.PNG": "/portfolio/static/media/blog.194183c2.PNG",
   "static/media/web.PNG": "/portfolio/static/media/web.c8d6c18e.PNG",
   "static/media/memorygame.PNG": "/portfolio/static/media/memorygame.f56266e4.PNG",
-  "static/css/main.44774d06.chunk.css.map": "/portfolio/static/css/main.44774d06.chunk.css.map",
+  "static/css/main.236ee758.chunk.css.map": "/portfolio/static/css/main.236ee758.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.1598625b112693e1d1b3833f267acc11.js": "/portfolio/precache-manifest.1598625b112693e1d1b3833f267acc11.js",
+  "precache-manifest.a03bf4c4c1343d3c61e5a1c24cb2d8ee.js": "/portfolio/precache-manifest.a03bf4c4c1343d3c61e5a1c24cb2d8ee.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
