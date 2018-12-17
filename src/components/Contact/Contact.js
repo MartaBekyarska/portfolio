@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import Menu1 from '../Menu1/Menu1';
+import Menu1 from '../menu1/Menu1';
 
 const Contact = () => {
     return (

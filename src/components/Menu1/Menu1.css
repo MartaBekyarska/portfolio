@@ -18,6 +18,10 @@
       color: black;
       font-size: 40px;
       font-family: 'Satisfy', cursive;
+      padding-left: 50px;
+  }
+  .menu .logo1:hover {
+      border-bottom: 1px solid white;
   }
 .menu a {
     margin: 10px;

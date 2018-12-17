@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { HashRouter, Route } from 'react-router-dom';
-import Home from './components/Home/Home';
-import Projects from './components/Projects/Projects';
-import Contact from './components/Contact/Contact';
-import Skills from './components/Skills/Skills';
+import Home from './components/home/Home';
+import Projects from './components/projects/Projects';
+import Contact from './components/contact/Contact';
+import Skills from './components/skills/Skills';
 import './App.css';
 
 class App extends Component {

@@ -2,10 +2,10 @@
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
   background-color: #efefef;
   display: flex;
   justify-content: flex-end;
   padding-right: 50px;
   font-size: 15px;
+  position: absolute;
 }

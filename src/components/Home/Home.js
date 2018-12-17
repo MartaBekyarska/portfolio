@@ -1,8 +1,8 @@
 import React from 'react';
 import marta from '../../images/marta.jpg';
 import './home.css';
-import Menu from '../Menu/Menu';
-import Footer1 from '../Footer/Footer1';
+import Menu from '../menu/Menu';
+import Footer1 from '../footer/Footer1';
 
 const Home = () => {
   return (
@@ -20,12 +20,10 @@ const Home = () => {
         </div>
       </div>
       <div id="background"></div>
-      {/* <footer> */}
         <div className="icons">
           <a href="https://github.com/MartaBekyarska"><i className="fab fa-github" id="github" /></a>
           <a href="https://www.linkedin.com/in/marta-bekyarska-4280b7137/"><i className="fab fa-linkedin" id="linkedin" /></a>
         </div>
-      {/* </footer> */}
       <Footer1 />
     </div>
   );

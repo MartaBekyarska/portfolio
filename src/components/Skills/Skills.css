@@ -1,0 +1,52 @@
+.skills {
+    font-family: Noto Sans TC;
+}
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    padding-bottom: 80px;
+    position: relative;
+  }
+.col {
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+  }
+.wrap-image1 {
+    justify-content: center;
+  }
+.a {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    height: 100%;
+  }
+.b {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  .c {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+  .d {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: 80%;
+  }
+  .e {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .f {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+@media screen and (min-width: 800px) {
+    .flex-grid {
+        grid-template-columns: 30% 30% 30%;
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+      }
+  }
