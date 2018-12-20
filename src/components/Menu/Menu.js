@@ -7,7 +7,7 @@ const Menu = props => (
         <header className='toolbar'>
             <nav className='toolbar__navigation'>
                 <div className='toolbar__toggle-button'>
-                    <DrawerToggleButton click={props.drawerClickHadler}/>
+                    <DrawerToggleButton click={props.drawerClickHandler}/>
                 </div>
                 <div className='toolbar__logo'><Link to="/">Marta Bekyarska</Link></div>
                 <div className='space' />

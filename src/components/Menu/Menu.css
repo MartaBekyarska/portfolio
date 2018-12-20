@@ -14,14 +14,19 @@
   padding: 0 1rem;
   align-items: center;
   color: black;
+  padding-right: 50px;
 }
 .toolbar__logo {
   margin-left: 1rem;
+  padding-top: 20px;
 }
 .toolbar__logo a {
-  color: white;
+  color: black;
+  font-size: 40px;
+  font-family: 'Satisfy', cursive;
   text-decoration: none;
   font-size: 40px;
+  padding-left: 30px;
 }
 .toolbar_navigation-items ul {
   list-style: none;
@@ -30,7 +35,7 @@
   display: flex;
 }
 .toolbar_navigation-items li {
-  padding: 0 0.5rem;
+  padding: 0 1.0rem;
   list-style-type: none;
 }
 .toolbar_navigation-items a {
@@ -39,6 +44,8 @@
   color: black;
   text-decoration: none;
 }
+.toolbar__logo a:hover,
+.toolbar__logo a:active,
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
   color: #f442e5;

@@ -43,8 +43,8 @@ class Home extends Component {
             Always keeping it clean and simple with added functionality whether it be in HTML, CSS or JavaScript.</p>
             </div>
           </div>
-          <div id="background">
-      </div>
+          {/* <div id="background">
+      </div> */}
           <div className="background-white">
           </div>
         </main>
