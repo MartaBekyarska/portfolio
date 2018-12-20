@@ -14,3 +14,28 @@
     padding-right: 50px;
     font-size: 15px;
 }
+.icons {
+    width: 15%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.fab {
+    font-size: 40px;
+}
+.fa-linkedin {
+    color: white;
+}
+.fa-github {
+    color: black;
+}
+.fa-github:hover {
+    color: #f442e5;
+    -webkit-transition: color .5s;
+     transition: color .5s
+}
+.fa-linkedin:hover {
+    color: #f442e5;
+    -webkit-transition: color .5s;
+    transition: color .5s
+}
