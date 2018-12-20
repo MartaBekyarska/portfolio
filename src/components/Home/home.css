@@ -1,7 +1,7 @@
-
+/* 
 body {
     background-color: white;
-}
+} */
 #background {
     position: fixed;
     top: 0px;
@@ -9,7 +9,12 @@ body {
     width: 50%;
     height: 100%;
     background-color: black;
-    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.background-white {
+    display: flex;
+    justify-content: flex-start;
 }
 
 #content {
@@ -36,23 +41,6 @@ body {
 .column1 {
     width: 50%;
    }
-#github {
-    color: white;
-    font-size: 40px;
-    position: absolute;
-    bottom: 0;
-    z-index: 1;
-    padding-bottom: 50px;
-    transform: translateX(-90%);
-}
-#linkedin {
-    color: black;
-    font-size: 40px;
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 50px;
-
-}
 .marta {
     height: 100%;
     width: 75%;
@@ -75,9 +63,5 @@ p {
 .column2 {
     width: 50%;
 }
-.icons a {
-   display: inline-block;
-   text-align: center;
-   margin: 40px;
-}
+
 

@@ -1,12 +1,24 @@
 import React from 'react';
-import './Contact.css';
+import './contact.css';
 import Menu1 from '../menu1/Menu1';
+import Footer from '../footer/Footer';
 
 const Contact = () => {
     return (
-        <div class="container">
+        <div className="container">
             <Menu1 />
-            <h1 className="message">If you wish to contact me via email please click <a class="mailto" href="mailto:martatsoneva@yahoo.com">here </a>or simply send me a message through <a href="https://www.linkedin.com/in/marta-bekyarska-4280b7137/">Linkedin</a>.</h1>
+            <div className="wrap-message">
+                <h1 className="message">
+                    I would love to hear from you via
+            <a className="mailto" href="mailto:martatsoneva@yahoo.com">
+                        &nbsp;email </a>or simply send me a message through
+            <a href="https://www.linkedin.com/in/marta-bekyarska-4280b7137/">
+                        &nbsp;Linkedin
+            </a>
+                    . I will answer as soon as possible.
+            </h1>
+            </div>
+            <Footer />
         </div>
     );
 };
