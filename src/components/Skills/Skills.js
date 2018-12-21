@@ -1,6 +1,6 @@
 import React from 'react';
-import Menu1 from '../menu1/Menu1';
-import Footer from '../footer/Footer';
+import Menu from '../menu/Menu';
+import Footer1 from '../footer/Footer1';
 import bootstrap from '../../images/bootstrap.jpg';
 import CSS from '../../images/CSS_1200px.jpg';
 import github from '../../images/github.png';
@@ -13,7 +13,7 @@ const Skills = () => {
 
     return (
         <div className="skills">
-            <Menu1 />
+            <Menu />
             <h1>I can work with...</h1>
             <div className="grid">
                 <div className="wrap-image1">
@@ -35,7 +35,7 @@ const Skills = () => {
                     <img className="col f" src={bootstrap} alt="bootstrap" />
                 </div>
             </div>
-            <Footer />  
+            <Footer1 />  
         </div>
     );
 };

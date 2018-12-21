@@ -15,10 +15,11 @@
     font-size: 15px;
 }
 .icons {
-    width: 15%;
+    width: 10%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 .fab {
     font-size: 40px;
@@ -35,7 +36,20 @@
      transition: color .5s
 }
 .fa-linkedin:hover {
-    color: #f442e5;
+    color: rgb(130, 240, 189);
     -webkit-transition: color .5s;
     transition: color .5s
+}
+@media (max-width: 600px) {
+    .footer1 {
+        position: fixed;
+    }
+    .rights {
+        padding-top: 10px;
+        font-size: 3vw;
+    }
+    .icons {
+        padding-top: 10px;
+        width: 25%;
+    }
 }

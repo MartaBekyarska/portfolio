@@ -1,12 +1,12 @@
 import React from 'react';
 import './contact.css';
-import Menu1 from '../menu1/Menu1';
-import Footer from '../footer/Footer';
+import Menu from '../menu/Menu';
+import Footer1 from '../footer/Footer1';
 
 const Contact = () => {
     return (
         <div className="container">
-            <Menu1 />
+            <Menu />
             <div className="wrap-message">
                 <h1 className="message">
                     I would love to hear from you via
@@ -18,7 +18,7 @@ const Contact = () => {
                     . I will answer as soon as possible.
             </h1>
             </div>
-            <Footer />
+            <Footer1 />
         </div>
     );
 };

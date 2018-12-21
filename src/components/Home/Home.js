@@ -31,8 +31,8 @@ class Home extends Component {
         <Menu drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        <main style={{ marginTop: '64px' }}>
-          <div className="row" id="content">
+        <main >
+          <div className="row">
             <div className="column1">
               <img className="marta" src={marta} alt="myself" />
             </div>
@@ -42,10 +42,6 @@ class Home extends Component {
                 My passion dominates in coding because I like to create beautiful and efficient websites.
             Always keeping it clean and simple with added functionality whether it be in HTML, CSS or JavaScript.</p>
             </div>
-          </div>
-          {/* <div id="background">
-      </div> */}
-          <div className="background-white">
           </div>
         </main>
         <Footer1 />

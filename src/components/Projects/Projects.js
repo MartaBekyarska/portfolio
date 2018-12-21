@@ -1,12 +1,12 @@
 import React from 'react';
-import Menu1 from '../menu1/Menu1';
+import Menu from '../menu/Menu';
 import memorygame from '../../images/memorygame.PNG';
 import SeasonalCuisine from '../../images/SeasonalCuisine.PNG';
 import kodflix from '../../images/kodflix.PNG';
 import shop from '../../images/shop.PNG';
 import blog from '../../images/blog.PNG';
 import web from '../../images/web.PNG';
-import Footer2 from '../footer/Footer2';
+import Footer1 from '../footer/Footer1';
 import './projects.css';
 import '../menu1/Menu1.css';
 
@@ -14,7 +14,7 @@ const Projects = () => {
 
     return (
         <div className="cont">
-            <Menu1 />
+            <Menu />
             <h1>Portfolio</h1>
             <div className="flex-grid">
                 <div className="wrap-image">
@@ -42,7 +42,7 @@ const Projects = () => {
                     <a href="https://github.com/MartaBekyarska/GA-singleWeb" className="bottom-left">Code</a>
                 </div>
             </div>
-            <Footer2 />
+            <Footer1 />
         </div>
     );
 };
