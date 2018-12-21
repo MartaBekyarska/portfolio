@@ -1,9 +1,9 @@
 {
-  "main.css": "/portfolio/static/css/main.67181b8b.chunk.css",
-  "main.js": "/portfolio/static/js/main.09c09bae.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.09c09bae.chunk.js.map",
-  "static/js/1.e126b720.chunk.js": "/portfolio/static/js/1.e126b720.chunk.js",
-  "static/js/1.e126b720.chunk.js.map": "/portfolio/static/js/1.e126b720.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.6a893c7a.chunk.css",
+  "main.js": "/portfolio/static/js/main.dafbda20.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.dafbda20.chunk.js.map",
+  "static/js/1.376d06ba.chunk.js": "/portfolio/static/js/1.376d06ba.chunk.js",
+  "static/js/1.376d06ba.chunk.js.map": "/portfolio/static/js/1.376d06ba.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/react.png": "/portfolio/static/media/react.a3e6de89.png",
@@ -18,8 +18,8 @@
   "static/media/HTML.png": "/portfolio/static/media/HTML.664a8c00.png",
   "static/media/javascript.png": "/portfolio/static/media/javascript.8242a544.png",
   "static/media/memorygame.PNG": "/portfolio/static/media/memorygame.f56266e4.PNG",
-  "static/css/main.67181b8b.chunk.css.map": "/portfolio/static/css/main.67181b8b.chunk.css.map",
+  "static/css/main.6a893c7a.chunk.css.map": "/portfolio/static/css/main.6a893c7a.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.6e9a153788cc1db372b3b68829844bbb.js": "/portfolio/precache-manifest.6e9a153788cc1db372b3b68829844bbb.js",
+  "precache-manifest.9ba27f80d2ab3779a0817ace4fdc2c5d.js": "/portfolio/precache-manifest.9ba27f80d2ab3779a0817ace4fdc2c5d.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
